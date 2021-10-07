@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Module E</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+  <p class="h1">Personal Customisable portal (PCP)</p>
+  <div class="container border p-2">
+  <p class="h2">Add Hawker Stall</p>
+    <form id="addform">
+        <div class="form-group">
+          <label for="stallNoInput">Stall No</label>
+          <input type="text" class="form-control" id="stallNoInput" name="stallNoInput">
+        </div>
+        <div class="form-group">
+          <label for="stallNameInput">Stall Name</label>
+          <input type="text" class="form-control" id="stallNameInput" name="stallNameInput">
+        </div>
+        <div class="form-group">
+          <label for="dishNameInput">Name of dish</label>
+          <input type="text" class="form-control" id="dishNameInput" name="dishNameInput">
+        </div>
+        <div class="form-group">
+          <label for="imageInput">Image</label>
+          <input type="text" class="form-control" id="imageInput" name="imageInput">
+        </div>
+        <div class="form-group">
+          <label for="addressInput">Address</label>
+          <input type="text" class="form-control" id="addressInput" name="addressInput">
+        </div>
+        <div class="form-group">
+          <label for="orderInput">How to Order</label>
+          <input type="text" class="form-control" id="orderInput" name="orderInput">
+        </div>
+        <div class="form-group">
+          <label for="categorySelect">Food Category</label>
+          <select class="form-control" id="categorySelect" name="categorySelect">
+            <option>Food Type One</option>
+            <option>Food Type Two</option>
+            <option>Food Type Three</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="commentsInput">Comments</label>
+          <input type="text" class="form-control" id="commentsInput" name="commentsInput">
+        </div>
+        <div class="form-group">
+          <label for="mapInput">Map</label>
+          <input type="text" class="form-control" id="mapInput" name="mapInput" placeholder="100,100">
+        </div>
+        <input type="submit" value="Create">
+      </form>
+    </div>
+    <div class="container border p-2 mt-2">
+      <p class="h2">Default Hawker Stalls</p>
+      <ul class="list-group" id="updatedefault">
+        
+      </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+        <script src="js/part2script.js"></script>
+</body>
+
+</html>

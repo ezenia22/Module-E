@@ -1,0 +1,6 @@
+.border-3 {
+    border-width:3px !important;
+}
+.container { position: relative; }
+.container img#map { display: block}
+.container img.pin, .container img.popup { position: absolute;}
